@@ -17,6 +17,12 @@ pip install tabulate
 > sql commands
 
 ```sql
+-- create database
+create database agenda;
+use agenda
+```
+
+```sql
 -- Create table
 create table month1(
     tid int(5) primary key auto_increment,
