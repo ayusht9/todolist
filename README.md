@@ -34,24 +34,22 @@ create table month1(
 
 -- insert into table
 insert into month1(name,time,place) values('shopping','2022-04-25 12:30','mall');
-insert into month1(tid,name,time,place) values('homework','2022-04-22 15:30','home');
+insert into month1(name,time,place) values('homework','2022-04-22 15:30','home');
 insert into month1(name,time,place) values('play','2022-04-22 17:30','park');
 insert into month1(name,time,place) values('clean','2022-04-29 7:30','terrace');
 insert into month1(name,time,place) values('youtube','2022-04-25 20:30','home');
 insert into month1(name,time,place) values('cycling','2022-04-22 17:30','track');
 
+```
+```sql
 -- display
 select * from month1;
-
--- exit
-exit
-
 ```
 
 > date format
 
 ```py
-date = datetime(2021, 8, 22, 11, 2)
+datetime(2021, 8, 22, 11, 2)
 ```
 
 
