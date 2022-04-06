@@ -8,7 +8,7 @@ print(time.ctime())
 print('■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■\n')
 
 
-mydb=ms.connect(host="localhost",user="rayon",password="cc",database='agenda') 
+mydb=ms.connect(host="localhost",user="root",password="",database='agenda') 
 cursor=mydb.cursor()
 
 def ins():
