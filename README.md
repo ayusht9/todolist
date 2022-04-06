@@ -31,7 +31,8 @@ create table month1(
     time datetime,
     place varchar(20)
 );
-
+```
+```sql
 -- insert into table
 insert into month1(name,time,place) values('shopping','2022-04-25 12:30','mall');
 insert into month1(name,time,place) values('homework','2022-04-22 15:30','home');
@@ -49,7 +50,7 @@ select * from month1;
 > date format
 
 ```py
-datetime(2021, 8, 22, 11, 2)
+datetime(2022, 5, 22, 11, 2)
 ```
 
 
