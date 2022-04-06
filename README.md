@@ -2,7 +2,7 @@
 
 This program can create and manage agenda for a month.
 
-Agendas for multiple months can be created worked upon.
+Agendas for multiple months can be created and worked upon.
 
 
 
